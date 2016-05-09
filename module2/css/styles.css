@@ -1,0 +1,143 @@
+
+/**  base **/
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	border: 0;
+	padding 0;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+#div1 {
+	position: relative;
+}
+#Chicken-label {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	background: yellow;
+	border: 1px solid black;
+	padding: 0;
+	width: 80px;
+	box-sizing: border-box;
+	font-size: 120%;
+	}
+#Beef-label {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	background: lightblue;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	width: 90px;
+	box-sizing: border-box;
+	font-size: 120%;
+}
+#Sushi-label {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	background: pink;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	width: 80px;
+	box-sizing: border-box;
+	font-size: 120%;
+}
+
+/** large devices **/
+@media (min-width: 992px) {
+	#chicken {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px;
+		position: absolute;
+		top: 0;
+		left: 10%;
+	}
+	#beef {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px;
+		position: absolute;
+		top: 0;
+		left: 40%;
+	}
+	#sushi {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px;
+		position: absolute;
+		top: 0;
+		left: 70%;
+	}
+}
+
+/** medium devices **/
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px;
+		position: absolute;
+		top: 0;
+		left: 5%;
+	}
+	#beef {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px;position: absolute;
+		top: 0;
+		left: 60%;
+	}
+	#sushi {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 80%;
+		height: 190px;
+		position: absolute;
+		top: 250px;
+		left: 5%;
+	}
+}
+
+/** small devices **/
+@media (max-width: 767px) {
+	#chicken {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px
+		position:relative;
+		left: 10%
+	}
+	#beef {
+		border: 1px solid black;
+		background: lightgrey;
+		width: 300px;
+		height: 190px
+	}
+	#sushi {
+		border: 1px solid black;
+		background: lightgrey;
+		align-content: center;
+		width: 300px;
+		height: 190px
+	}
+}
+
