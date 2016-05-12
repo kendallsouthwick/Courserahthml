@@ -6,7 +6,7 @@ h1 {
 }
 
 p {
-	padding: 0;
+	padding: 10px 10px 10px 10px;;
 	margin: 0;
 }
 
@@ -26,7 +26,7 @@ div {
 	background: yellow;
 	border: 1px solid black;
 	padding: 0;
-	width: 80px;
+	width: 30%;
 	box-sizing: border-box;
 	font-size: 120%;
 	}
@@ -34,23 +34,24 @@ div {
 	position: absolute;
 	right: 0;
 	text-align: center;
-	background: lightblue;
+	background: aquamarine;
 	border: 1px solid black;
 	padding: 0;
 	margin: 0;
-	width: 90px;
+	width: 30%;
 	box-sizing: border-box;
 	font-size: 120%;
 }
 #Sushi-label {
 	position: absolute;
 	right: 0;
+	top: 0px;
 	text-align: center;
 	background: pink;
 	border: 1px solid black;
 	padding: 0;
 	margin: 0;
-	width: 80px;
+	width: 30%;
 	box-sizing: border-box;
 	font-size: 120%;
 }
@@ -59,39 +60,9 @@ div {
 @media (min-width: 992px) {
 	#chicken {
 		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
-		height: 190px;
-		position: absolute;
-		top: 0;
-		left: 10%;
-	}
-	#beef {
-		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
-		height: 190px;
-		position: absolute;
-		top: 0;
-		left: 40%;
-	}
-	#sushi {
-		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
-		height: 190px;
-		position: absolute;
-		top: 0;
-		left: 70%;
-	}
-}
-
-/** medium devices **/
-@media (min-width: 768px) and (max-width: 991px) {
-	#chicken {
-		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
+		margin-left: 10px;
+		background: papayawhip;
+		width: 25%;
 		height: 190px;
 		position: absolute;
 		top: 0;
@@ -99,17 +70,48 @@ div {
 	}
 	#beef {
 		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
-		height: 190px;position: absolute;
+		background: papayawhip;
+		width: 25%;
+		height: 190px;
+		position: absolute;
 		top: 0;
-		left: 60%;
+		left: 35%;
 	}
 	#sushi {
 		border: 1px solid black;
-		background: lightgrey;
-		width: 80%;
+		background: papayawhip;
+		width: 25%;
 		height: 190px;
+		position: absolute;
+		top: 0;
+		left: 65%;
+	}
+}
+
+/** medium devices **/
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 35%;
+		height: 190px;
+		position: absolute;
+		top: 0;
+		left: 5%;
+	}
+	#beef {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 35%;
+		height: 190px;position: absolute;
+		top: 0;
+		left: 55%;
+	}
+	#sushi {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 85%;
+		height: 110px;
 		position: absolute;
 		top: 250px;
 		left: 5%;
@@ -120,24 +122,30 @@ div {
 @media (max-width: 767px) {
 	#chicken {
 		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
-		height: 190px
-		position:relative;
-		left: 10%
+		background: papayawhip;
+		width: 80%;
+		height: 190px;
+		position: absolute;
+		left: 10%;
 	}
 	#beef {
 		border: 1px solid black;
-		background: lightgrey;
-		width: 300px;
-		height: 190px
+		background: papayawhip;
+		width: 80%;
+		height: 190px;
+		position: absolute;
+		top: 250px;
+		left: 10%;
 	}
 	#sushi {
 		border: 1px solid black;
-		background: lightgrey;
+		background: papayawhip;
 		align-content: center;
-		width: 300px;
-		height: 190px
+		width: 80%;
+		height: 190px;
+		position: absolute;
+		top: 500px;
+		left: 10%;
 	}
 }
 
