@@ -1,0 +1,173 @@
+
+body {
+	font-family: sans-serif;
+}
+#menulabel {
+	text-align: center;
+	font-weight: bold;
+}
+p {
+	padding: 10px 10px 10px 10px;;
+	margin: 0;
+}
+
+div {
+	border: 0;
+	padding 0;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+#Chicken-label {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	}
+#Beef-label {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#Sushi-label {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+/** HEADER **/
+#header-nav {
+  background-color: PaleGreen;
+  border-radius: 0;
+  border: 0;
+  height: 80px;
+  position: relative;
+}
+.navbar-brand {
+  padding-top: 20px;
+}
+.navbar-brand h1 { /* Company name */
+  color: Black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 5px;
+  font-size: 16px;
+}
+#nav-list a {
+  color: Black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: LightGrey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid ;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+
+/** large devices **/
+@media (min-width: 992px) {
+	#chicken {
+		border: 1px solid black;
+		margin-left: 10px;
+		background: papayawhip;
+		width: 26.3%;
+		height: 190px;
+		position: absolute;
+		top: 50;
+		left: 5%;
+	}
+		#beef {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 26.3%;
+		height: 190px;
+		position: absolute;
+		top: 50;
+		left: 36.3%;
+	}
+	#sushi {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 26.3%;
+		height: 190px;
+		position: absolute;
+		top: 50;
+		left: 66.6%;
+	}
+}
+
+/** medium devices **/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#chicken {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 40%;
+		height: 190px;
+		position: absolute;
+		top: 50;
+		left: 5%;
+	}
+	#beef {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 40%;
+		height: 190px;position: absolute;
+		top: 50;
+		left: 55%;
+	}
+	#sushi {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 90%;
+		height: 110px;
+		position: absolute;
+		top: 350px;
+		left: 5%;
+	}
+}
+
+/** small devices **/
+@media (max-width: 767px) {
+	#chicken {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 90%;
+		height: 170px;
+		position: absolute;
+		left: 5%;
+	}
+	#beef {
+		border: 1px solid black;
+		background: papayawhip;
+		width: 90%;
+		height: 170px;
+		position: absolute;
+		top: 340px;
+		left: 5%;
+	}
+	#sushi {
+		border: 1px solid black;
+		background: papayawhip;
+		align-content: center;
+		width: 90%;
+		height: 170px;
+		position: absolute;
+		top: 530px;
+		left: 5%;
+	}
+}
